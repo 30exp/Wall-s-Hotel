@@ -1,0 +1,494 @@
+/*pt heavy*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;*/
+
+/*pt demi*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: normal;*/
+
+/*pt demi oblique*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: italic;*/
+
+/*pt book*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;*/
+
+/*pt light*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 300;
+font-style: normal;*/
+
+h1 {
+	font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2.5rem;
+}
+
+h2 {
+	font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+}
+
+p {
+	font-family: futura-pt,sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+/*body*/
+
+body {
+	background-color: #FFFFFF;
+}
+
+/*header*/
+
+header {
+	padding: 2rem;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 8888;
+}
+
+header li {
+	display: inline-block;
+	padding-left: 1rem;
+}
+
+.menu-link {
+	display: inline-block;
+	padding: .5rem;
+}
+
+header li a, header .menu-link {
+	  text-decoration: none;
+
+	background-color: #ff0000;
+	color: #ffffff;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+header li a:hover, header .menu-link:hover {
+		  text-decoration: none;
+
+	background: none;
+	color: #ff0000;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	transition: .2s;
+}
+
+header li a:active, header .menu-link:active {
+	text-decoration: none;
+	background: none;
+	color: #ffffff;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	transition: 0s;
+}
+
+/*logo*/
+
+.logo img {
+	height: 3rem;
+}
+
+.gif-logo img {
+	height: 5rem;
+}
+
+/*hero*/
+
+.hero {
+	background: url(../img/photo-1522798514-97ceb8c4f1c8.jpeg) no-repeat 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 100%;
+	padding: 48rem 2rem 2rem 2rem;
+}
+
+.hero a {
+	color: #ff0000;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+
+}
+
+/*banner*/
+
+.banner {
+	background-color: #ff0000;
+	color: #ffffff;
+	width: 100%;
+	padding: 10px;
+}
+
+.banner h1 {
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.banner ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.banner li {
+display: inline-block;
+padding: 0 3rem;
+}
+
+
+/*features*/
+
+.features {
+
+}
+
+/*booking*/
+
+.booking {
+}
+
+.booking .button {
+	width: 100%;
+}
+
+.reveal .button {
+	width: 100%;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.orbit-previous {
+	color: #ff0000;
+}
+
+.orbit-next {
+	color: #ff0000;
+}
+
+/*welcome*/
+
+.welcome {
+	text-align: center;
+}
+
+.welcome h1 {
+	font-size: 5rem;
+	padding: 50px 0;
+	margin: 0;
+}
+
+.welcome p {
+}
+
+.welcome img {
+	height: 1rem;
+}
+
+.big-list {
+	padding-bottom: 50px;
+
+
+}
+
+.big-list h1 {
+	text-align: center;
+	font-size: 5rem;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.big-list img {
+	padding-top: 50px;
+}
+
+/*details*/
+
+.spaces {
+
+}
+
+.spaces .grid-x {
+	background-color: #ff0000;
+	color: #ffffff;
+}
+
+.spaces .content {
+	padding: 3rem 3rem;
+}
+
+.spaces .button {
+	background-color: #ff0000;
+	color: #FFFFFF;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.spaces .button:hover {
+	background: #ffffff;
+	color: #ff0000;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	transition: .2s;
+}
+
+.spaces .button:active {
+	background: none;
+	color: #ffffff;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	transition: 0s;
+}
+
+/*quotes*/
+
+.quotes {
+	background-color: #ffffff;
+	padding: 158px 0;
+
+}
+
+.quotes h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px; 
+	padding-bottom: 1.5rem;
+}
+
+.quotes p {
+	font-size: 1.25rem;
+}
+
+.quotes blockquote {
+	margin: 0;
+	padding: 0;
+	border-left: 0;
+}
+
+/*booking*/
+
+.booking .button {
+	background-color: #ff0000;
+	color: #FFFFFF;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.booking .button:hover {
+	background: none;
+	color: #ff0000;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	transition: .2s;
+}
+
+.booking .button:active {
+	background: none;
+	color: #ffffff;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	transition: 0s;
+}
+
+.booking th {
+	color: #000000;
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+/*looking*/
+
+.looking {
+	background: url(../img/photo-1515510457176-39b9b5821a4a-2.jpg) no-repeat 100%;
+background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	padding: 380px 0;
+	margin-top: 150px;
+		text-align: center;
+			color: #ffffff;
+			  	z-index: 9999;
+}
+
+.looking h1 {
+		font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.looking header {
+	display: none;
+}
+
+
+/*gif*/
+
+.gif {
+	background-color: #000000;
+	color: #ffffff;
+  	text-align: center;
+  	padding: 455px 0 100px 0;
+}
+
+/*bumps*/
+
+.bumps {
+	background-color: #000000;
+	color: #ffffff;
+  	text-align: center;
+  	padding: 1rem 0 1rem 0;
+  	font-size: .5rem;
+}
+
+.bumps ul {
+  list-style: none;
+}
+
+.bumps li {
+  display: inline-block;
+}
+
+.bumps li a {
+  text-decoration: none;
+  padding: 0 3rem;
+font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #ff0000;
+}
+
+.bumps li a: hover {
+		  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.bumps li a:active {
+		  text-decoration: none;
+
+  color: #000000;
+  transition: 0s;
+}
+
+.bumps p {
+	font-size: .5rem;
+}
+
+/*links*/
+
+.links {
+	background-color: #000000;
+	color: #ffffff;
+  	text-align: center;
+  	padding: 1rem 0 1rem 0;
+  	font-size: .5rem;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links li a {
+  text-decoration: none;
+  padding: 0 3rem;
+font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #ff0000;
+}
+
+.links li a: hover {
+		  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.links li a:active {
+		  text-decoration: none;
+
+  color: #000000;
+  transition: 0s;
+}
+
+.links p {
+	font-size: .5rem;
+}
+
+/*footer*/
+
+footer {
+	background-color: #000000;
+	color: #ff0000;
+  	text-align: center;
+  	padding: 1rem 0 1rem 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+footer li a: hover {
+		  text-decoration: none;
+
+  color: #FFFFFF;
+}
+footer li a:active {
+		  text-decoration: none;
+
+  color: #000000;
+  transition: 0s;
+}
+
+footer p {
+font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: .5rem;
+}
